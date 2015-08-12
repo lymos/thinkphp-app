@@ -1,0 +1,13 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8">
+        <meta Type="viewport" content="device-width=1;inscra-inll=false">
+    </head>
+<body>
+    <form name="form" action="Home/Index/submit" method="post"> 
+        用户名：<input name="name" type="text">
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
